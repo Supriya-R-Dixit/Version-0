@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TableRow>
+		 
+		<Button
+			android:text="u"
+			android:textSize="16sp"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"
+		/>
+
+
+		<Button
+			android:text="आ"
+			android:id="@+id/button_Aa"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"
+		
+			
+		/>
+
+		<Button
+			android:text="इ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"
+		/>
+
+<Button
+			android:text="ई"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"
+		
+		 />
+		
+
+        <Button
+			android:text="उ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		   android:layout_width="71dp"/>
+
+		 </TableRow>
+<TableRow>
+		<Button
+			android:text="ऊ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+			
+
+
+		<Button
+			android:text="ऋ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"
+		/>
+
+		<Button
+			android:text="ए"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"
+		/>
+
+        <Button
+			android:text="ऐ"
+			android:id="@+id/button_Ai"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"
+		/>
+
+        <Button
+			android:text="ओ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"
+		/>
+
+		</TableRow>
+	<TableRow>
+		
+		<Button
+			android:text="औ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+			android:layout_gravity="center_horizontal"
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="अं"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"
+			android:layout_gravity="center_horizontal"
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="अ:"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light" 
+			android:layout_gravity="center_horizontal"
+		android:layout_width="71dp"/>
+
+
+
+		</TableRow>
+
+
+	<TableRow>
+		<Button
+			android:text="क"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="ख"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="ग"
+			android:id="@+id/button_Ga"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="घ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="ङ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		</TableRow>
+
+	<TableRow>
+		<Button
+			android:text="च"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="छ"
+			android:id="@+id/button_cha"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="ज"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="झ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="ञ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		</TableRow>
+
+	<TableRow>
+		<Button
+			android:text="ट"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="ठ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="ड"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="ढ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="ण"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		</TableRow>
+
+	<TableRow>
+		<Button
+			android:text="त"
+			android:id="@+id/button_Ta"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="थ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="द"
+			android:id="@+id/button_Da"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="ध"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="न"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		</TableRow>
+
+	<TableRow>
+		<Button
+			android:text="प"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="फ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="ब"
+			android:id="@+id/button_Ba"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="भ"
+			android:id="@+id/button_Bha"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="म"
+			android:id="@+id/button_Ma"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		</TableRow>
+
+	<TableRow>
+		<Button
+			android:text="य"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="र"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="ल"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="व"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="श"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		</TableRow>
+
+	<TableRow>
+		<Button
+			android:text="श"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		<Button
+			android:text="स"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		<Button
+			android:text="ह"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="क्ष"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+<Button
+			android:text="त्र"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		android:layout_width="71dp"/>
+
+		</TableRow>
+	<TableRow>
+		<Button
+			android:text="ज्ञ"
+			android:textColor="@android:color/black"
+			android:backgroundTint="@android:color/background_light"  
+		    android:layout_width="71dp"/>
+
+
+		
+
+		</TableRow>
+
+	
+
+
+
+</TableLayout>

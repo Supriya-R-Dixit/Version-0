@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Enter Username below"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageDisplay" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="57.0dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/username" />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="61.5dp"
+        android:textAlignment="center"
+        android:id="@+id/login" />
+</LinearLayout>

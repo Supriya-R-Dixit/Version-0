@@ -1,0 +1,14 @@
+{
+  "client_id" : "d4ab34fd-8ae4-4c6f-851d-7d0f33da349d",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://com.graceOfGuru.graceOfGuru/jO2liyEJkEGD71OjCQkqvldrtsM%3D",
+  "authorities" : [
+  {
+      "type": "AAD",
+      "audience": {
+      "type": "AzureADMyOrg",
+      "tenant_id": "fa19f7cc-ef8f-46c3-a9d2-61e9d033990b"
+    }
+   }
+  ]
+}
