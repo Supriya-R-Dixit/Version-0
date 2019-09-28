@@ -20,7 +20,7 @@ using System.Net.Http.Headers;
 
 namespace GraceOfGuru
 {
-    [Activity(Label = "LoginScreen", MainLauncher = true)]
+    [Activity(Label = "Login", MainLauncher = true)]
     public class MainActivity : Activity
     {
 
@@ -31,6 +31,7 @@ namespace GraceOfGuru
         public const string ClientId = "d4ab34fd-8ae4-4c6f-851d-7d0f33da349d";
         public const string reDirect = "msauth://com.graceOfGuru.graceOfGuru/jO2liyEJkEGD71OjCQkqvldrtsM%3D";//"msal" + ClientId + "://auth";
 
+        public static object AuthUIParent = null;
 
         /* UI & Debugging Variables */
         private string TAG = typeof(MainActivity).Name;
@@ -70,14 +71,14 @@ namespace GraceOfGuru
                             //     onSignOutClicked();
                         };*/
 
-
+            //sampleApp = "";
             /* Configure your sample app and save state for this activity */
             sampleApp = PublicClientApplicationBuilder.Create(ClientId).WithRedirectUri(reDirect).Build();
 
             var scopes = mScopes.Split(' ');
             accessToken = string.Empty;
 
-            try
+          /*  try
             {
                 IEnumerable<IAccount> accounts = await sampleApp.GetAccountsAsync();
 
@@ -98,7 +99,7 @@ namespace GraceOfGuru
             {
                 // This exception is thrown when an interactive sign-in is required.
                 Console.WriteLine("Silent token request failed, user needs to sign-in");
-            }
+            }*/
 
             if (string.IsNullOrEmpty(accessToken))
             {
@@ -109,6 +110,10 @@ namespace GraceOfGuru
 
                 // var authResult = await interactiveRequest.WithParentActivityOrWindow(this).ExecuteAsync();
                 Console.WriteLine("Access Token: {0}", arg0: interactiveRequest.AccessToken);
+
+                var intent = new Intent(this, typeof(OptionsforKids));
+                StartActivity(intent);
+                AuthUIParent = this;
             }
             //code to create buttons dynamically
 
