@@ -15,15 +15,11 @@ using System.Threading.Tasks;
 using Microsoft.Graph;
 using System.Net.Http.Headers;
 
-
-
-
 namespace GraceOfGuru
 {
     [Activity(Label = "Login", MainLauncher = true)]
     public class MainActivity : Activity
     {
-
         //public const string SCOPES = "https://graph.microsoft.com/User.Read" ;
         public const string mScopes = "User.Read Calendars.Read";
         public const string MSGRAPH_URL = "https://graph.microsoft.com/v1.0/me";
